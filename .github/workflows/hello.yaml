@@ -13,5 +13,5 @@ jobs:
       - name: Print hello
         run: echo "Hello GitHub Actions"
 
-      - name: Print commit sha
-        run: echo $GITHUB_SHA
+      - name: Print commit 
+        run: echo commit  
