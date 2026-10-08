@@ -2,16 +2,11 @@ name: hello-actions
 
 on:
   push:
-    branches:
-      - dev
 
 jobs:
   hello:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Print hello
+      - name: Print message
         run: echo "Hello GitHub Actions"
-
-      - name: Print commit sha
-        run: echo $GITHUB_SHA
